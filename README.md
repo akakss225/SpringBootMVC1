@@ -10,5 +10,6 @@
 
 <hr>
 
-1. 개발 환경 세팅
+## 1. 개발 환경 세팅
 
+IntelliJ + WorkBench + JDK 11 version + MySQL 준비
