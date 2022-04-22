@@ -17,3 +17,16 @@ IntelliJ + WorkBench + JDK 11 version + MySQL 준비
 
 ## 2. 프로젝트 생성
 
+SpringBoot Initializr
+
+<img width="800" alt="스크린샷 2022-04-22 14 39 35" src="https://user-images.githubusercontent.com/78843098/164610538-89881cb4-7396-4eef-afcf-8cd0054cda01.png">
+
+<img width="800" alt="스크린샷 2022-04-22 14 40 00" src="https://user-images.githubusercontent.com/78843098/164610602-a4e37b0b-de53-4466-afaa-dd401657cbe7.png">
+
+DB 생성
+
+<img width="1438" alt="스크린샷 2022-04-22 14 38 56" src="https://user-images.githubusercontent.com/78843098/164610657-d868b5bc-bdc5-47d1-8c7f-9c927f46e7a6.png">
+
+DB 연동
+
+<img width="1440" alt="스크린샷 2022-04-22 14 40 29" src="https://user-images.githubusercontent.com/78843098/164610700-5e716d2f-e301-4bba-9df8-0b4872d01c83.png">
