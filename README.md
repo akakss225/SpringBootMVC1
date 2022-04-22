@@ -13,3 +13,7 @@
 ## 1. 개발 환경 세팅
 
 IntelliJ + WorkBench + JDK 11 version + MySQL 준비
+
+
+## 2. 프로젝트 생성
+
