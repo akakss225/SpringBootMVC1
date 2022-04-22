@@ -30,3 +30,7 @@ DB 생성
 DB 연동
 
 <img width="1440" alt="스크린샷 2022-04-22 14 40 29" src="https://user-images.githubusercontent.com/78843098/164610700-5e716d2f-e301-4bba-9df8-0b4872d01c83.png">
+
+서버 실행
+
+<img width="1440" alt="스크린샷 2022-04-22 14 45 47" src="https://user-images.githubusercontent.com/78843098/164611236-64e58bd0-b708-4ca8-a017-0d6f893ec4c3.png">
