@@ -5,6 +5,8 @@ import com.study.board.repository.BoardRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @AllArgsConstructor
 public class BoardService {
@@ -13,6 +15,10 @@ public class BoardService {
 
     public void write(Board board){
         boardRepository.save(board);
+    }
+
+    public List<Board> boardList() {
+        return boardRepository.findAll();
     }
 
 }

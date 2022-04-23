@@ -88,6 +88,29 @@ Controller 가 BoardService를 주입받고, 실제 데이터를 저장하는 �
 
 <img width="1440" alt="스크린샷 2022-04-23 14 59 54" src="https://user-images.githubusercontent.com/78843098/164881890-262d5b39-f848-49a2-8c1c-c74ba446603e.png">
 
+## 4. 게시물 리스팅
+
+리스팅을 위한 샘플 데이터를 DB에 저장해준다.
+
+<img width="1440" alt="스크린샷 2022-04-23 15 16 46" src="https://user-images.githubusercontent.com/78843098/164882605-ee88046b-0160-4023-9bdc-6ce83cc1de98.png">
+
+BoardService에서 Repository로부터 상속받은 findAll() 메소드를 활용해 List<Board> 형태로 데이터를 꺼낸다.
+
+<img width="1440" alt="스크린샷 2022-04-23 15 29 10" src="https://user-images.githubusercontent.com/78843098/164882968-b9f07767-3e5f-4a99-a42f-21f52e3f2c56.png">
+
+이후 Controller에서 Service 를 통해 DB로부터 받아온 데이터를 뷰 템플릿에 넘겨주는 API를 작성한다.
+이때 Model 데이터를 활용해 뷰 템플릿으로 데이터를 보낼 수 있다.
+
+<img width="1440" alt="스크린샷 2022-04-23 15 29 25" src="https://user-images.githubusercontent.com/78843098/164882974-a72ebeca-f98d-4b59-ac24-c51617fe40f3.png">
+
+뷰 템플릿은 Thymeleaf를 활용한다.
+
+<img width="1440" alt="스크린샷 2022-04-23 15 28 10" src="https://user-images.githubusercontent.com/78843098/164882941-a994165d-b7e4-4c94-beee-b9853bfea5ba.png">
+
+결과 확인
+
+<img width="1440" alt="스크린샷 2022-04-23 15 32 17" src="https://user-images.githubusercontent.com/78843098/164883079-f3e1b2e6-d4dc-4b76-bd93-775d67fd41e2.png">
+
 
 
 
