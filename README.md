@@ -62,3 +62,33 @@ DB Table 생성
 
 <img width="1440" alt="스크린샷 2022-04-23 14 34 43" src="https://user-images.githubusercontent.com/78843098/164879368-7882c866-da06-45ed-8e68-fd2f36210154.png">
 
+DB접근을 위한 Entity, Repository 생성
+
+<img width="1440" alt="스크린샷 2022-04-23 14 45 58" src="https://user-images.githubusercontent.com/78843098/164879578-83cc89bf-e037-4bee-b290-e5e422c7a09c.png">
+
+<img width="1440" alt="스크린샷 2022-04-23 14 46 03" src="https://user-images.githubusercontent.com/78843098/164879583-fb1aaa0d-6d28-43d2-b6af-e3df9c3ee6b3.png">
+
+<img width="1440" alt="스크린샷 2022-04-23 14 48 03" src="https://user-images.githubusercontent.com/78843098/164879635-cf4528c7-92fc-4137-a791-f51dd8dab942.png">
+
+JpaRepository<> 를 상속받는 BoardRepository 생성
+
+<img width="1440" alt="스크린샷 2022-04-23 14 55 25" src="https://user-images.githubusercontent.com/78843098/164880993-72996a68-c33b-4c11-aeaa-eda94feca1a9.png">
+
+이후 BoardRepository(JPA를 상속받은)의 기능인 save를 사용하기위해 Service를 만들어 생성자 주입후 함수 정의
+
+<img width="1440" alt="스크린샷 2022-04-23 14 56 34" src="https://user-images.githubusercontent.com/78843098/164881222-d0d54d4e-f341-4ef5-b773-60929a8d87f3.png">
+
+Controller 가 BoardService를 주입받고, 실제 데이터를 저장하는 기능을 구현
+
+<img width="1440" alt="스크린샷 2022-04-23 14 58 01" src="https://user-images.githubusercontent.com/78843098/164881638-348ae6a0-1102-4b7c-8bd5-e2cd470353dc.png">
+
+실제 실행시, DB에 Data가 저장됨을 볼 수 있다.
+
+<img width="1440" alt="스크린샷 2022-04-23 14 59 29" src="https://user-images.githubusercontent.com/78843098/164881838-8c57efc6-7a54-49f0-b274-4bbf323e753b.png">
+
+<img width="1440" alt="스크린샷 2022-04-23 14 59 54" src="https://user-images.githubusercontent.com/78843098/164881890-262d5b39-f848-49a2-8c1c-c74ba446603e.png">
+
+
+
+
+
