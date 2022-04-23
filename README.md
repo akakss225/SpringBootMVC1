@@ -2,7 +2,7 @@
 
 - [개발 환경 세팅](https://github.com/akakss225/SpringBootMVC1/blob/main/README.md#1-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EC%84%B8%ED%8C%85)
 - [프로젝트 생성](https://github.com/akakss225/SpringBootMVC1/blob/main/README.md#2-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1)
-- 게시물 작성
+- [게시물 작성](https://github.com/akakss225/SpringBootMVC1#3-%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EC%9E%91%EC%84%B1)
 - 게시물 리스팅
 - 게시물 삭제
 - 게시물 수정
