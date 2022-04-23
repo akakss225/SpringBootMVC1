@@ -4,7 +4,7 @@
 - [프로젝트 생성](https://github.com/akakss225/SpringBootMVC1/blob/main/README.md#2-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1)
 - [게시물 작성](https://github.com/akakss225/SpringBootMVC1#3-%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EC%9E%91%EC%84%B1)
 - [게시물 리스팅](https://github.com/akakss225/SpringBootMVC1#4-%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EB%A6%AC%EC%8A%A4%ED%8C%85)
-- 게시물 상세페이지
+- [게시물 상세페이지](https://github.com/akakss225/SpringBootMVC1#5-%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80)
 - 게시물 삭제
 - 게시물 수정
 - 게시물 리스트 페이징
