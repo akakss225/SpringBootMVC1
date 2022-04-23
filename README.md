@@ -3,7 +3,8 @@
 - [개발 환경 세팅](https://github.com/akakss225/SpringBootMVC1/blob/main/README.md#1-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EC%84%B8%ED%8C%85)
 - [프로젝트 생성](https://github.com/akakss225/SpringBootMVC1/blob/main/README.md#2-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%83%9D%EC%84%B1)
 - [게시물 작성](https://github.com/akakss225/SpringBootMVC1#3-%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EC%9E%91%EC%84%B1)
-- 게시물 리스팅
+- [게시물 리스팅](https://github.com/akakss225/SpringBootMVC1#4-%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EB%A6%AC%EC%8A%A4%ED%8C%85)
+- 게시물 상세페이지
 - 게시물 삭제
 - 게시물 수정
 - 게시물 리스트 페이징
@@ -111,7 +112,31 @@ BoardService에서 Repository로부터 상속받은 findAll() 메소드를 활�
 
 <img width="1440" alt="스크린샷 2022-04-23 15 32 17" src="https://user-images.githubusercontent.com/78843098/164883079-f3e1b2e6-d4dc-4b76-bd93-775d67fd41e2.png">
 
+## 5. 게시물 상세페이지
 
+BoardService 에서 key값인 id 정보를 이용한 Board 데이터를 호출하는 비즈니스로직을 작성한다.
 
+<img width="1440" alt="스크린샷 2022-04-23 16 12 11" src="https://user-images.githubusercontent.com/78843098/164884396-f02de78f-ee5d-4c45-ba36-bf017bc75ae5.png">
 
+이후 Controller에서 마찬가지로 뷰 템플릿으로 데이터를 던져준다.
 
+<img width="1440" alt="스크린샷 2022-04-23 16 12 16" src="https://user-images.githubusercontent.com/78843098/164884441-0968538d-e01e-4f12-adc0-11b050173063.png">
+
+이번 페이지의 경우, 내용만을 다룰것이기 때문에 뷰 템플릿은 최소화하여 작성한다.
+
+<img width="1440" alt="스크린샷 2022-04-23 16 12 02" src="https://user-images.githubusercontent.com/78843098/164884381-3692d713-52fb-44f7-b509-667d70064e12.png">
+
+결과 확인
+
+<img width="1440" alt="스크린샷 2022-04-23 16 15 36" src="https://user-images.githubusercontent.com/78843098/164884462-53d1b02a-74e3-4581-9bf0-992e0df27107.png">
+
+추가적으로 List 페이지에서 Title을 클릭하면, 상세페이지로 가게끔 페이지를 리펙토링 해준다.
+Thymeleaf 문법을 사용한다.
+
+<img width="1440" alt="스크린샷 2022-04-23 16 21 21" src="https://user-images.githubusercontent.com/78843098/164884668-4b821232-5432-4ba7-b64e-f16ea9cb95fe.png">
+
+결과 확인
+
+<img width="1440" alt="스크린샷 2022-04-23 16 21 54" src="https://user-images.githubusercontent.com/78843098/164884699-74abf2e1-6719-496c-9ebe-9fcf5bc15d35.png">
+
+<img width="1440" alt="스크린샷 2022-04-23 16 21 57" src="https://user-images.githubusercontent.com/78843098/164884701-29472cd1-1d62-47e2-9ddc-8d99104ada64.png">
