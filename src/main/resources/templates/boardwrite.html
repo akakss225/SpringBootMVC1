@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Board Write</title>
+</head>
+<style>
+    .layout {
+        width: 500px;
+        margin: 40px auto 0px;
+    }
+    .layout input {
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+    .layout textarea {
+        width: 100%;
+        margin-top: 10px;
+        min-height: 300px;
+    }
+</style>
+<body>
+    <div class="layout">
+        <form action="/board/writedo" method="post">
+            <input type="text" name="title">
+            <textarea name="content"></textarea>
+            <button type="submit">submit</button>
+        </form>
+    </div>
+</body>
+</html>

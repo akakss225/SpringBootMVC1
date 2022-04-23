@@ -46,3 +46,19 @@ page
 <img width="1440" alt="스크린샷 2022-04-22 14 51 53" src="https://user-images.githubusercontent.com/78843098/164611938-95330bfc-ec5b-42f9-a83d-e88bed739f14.png">
 
 
+## 3. 게시물 작성
+
+DB Table 생성
+
+<img width="1440" alt="스크린샷 2022-04-23 14 19 13" src="https://user-images.githubusercontent.com/78843098/164878912-e867460c-9c8f-4ac1-8295-6d1995b3bfe3.png">
+
+게시글 작성 폼 생성
+
+<img width="1440" alt="스크린샷 2022-04-23 14 30 08" src="https://user-images.githubusercontent.com/78843098/164879328-06b55b26-fecb-494b-ac86-fcb19aea2acb.png">
+
+<img width="1440" alt="스크린샷 2022-04-23 14 28 41" src="https://user-images.githubusercontent.com/78843098/164879342-e7f0691d-38bc-4693-8c4a-6b5ba58456f8.png">
+
+간단한 데이터 작성 후 데이터 확인
+
+<img width="1440" alt="스크린샷 2022-04-23 14 34 43" src="https://user-images.githubusercontent.com/78843098/164879368-7882c866-da06-45ed-8e68-fd2f36210154.png">
+
