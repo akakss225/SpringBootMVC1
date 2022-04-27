@@ -6,7 +6,7 @@
 - [게시물 리스팅](https://github.com/akakss225/SpringBootMVC1#4-%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EB%A6%AC%EC%8A%A4%ED%8C%85)
 - [게시물 상세페이지](https://github.com/akakss225/SpringBootMVC1#5-%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80)
 - [게시물 삭제](https://github.com/akakss225/SpringBootMVC1#6-%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EC%82%AD%EC%A0%9C)
-- 게시물 수정
+- [게시물 수정](https://github.com/akakss225/SpringBootMVC1#7-%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EC%82%AD%EC%A0%9C)
 - 게시물 리스트 페이징
 
 <hr>
@@ -165,7 +165,7 @@ BoardController 에 API 작성
 <img width="1440" alt="스크린샷 2022-04-27 15 29 43" src="https://user-images.githubusercontent.com/78843098/165455284-950cb4ae-e9c5-48cf-b628-343ea1e3fa80.png">
 
 
-## 7. 게시물 삭제
+## 7. 게시물 수정
 
 게시물 삭제의 경우, 별도의 비즈니스로직(Service) 가 필요없다.
 기존에 작성되어있던 게시물 작성을 적극 활용한다.
