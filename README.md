@@ -214,3 +214,30 @@ BoardController 에 API 작성
 <img width="1440" alt="스크린샷 2022-04-27 16 18 31" src="https://user-images.githubusercontent.com/78843098/165463107-2f2b1df8-512d-4aba-9c5e-880f3be34b04.png">
 
 <img width="1440" alt="스크린샷 2022-04-27 16 18 41" src="https://user-images.githubusercontent.com/78843098/165463136-f28f041c-b0d8-4568-89eb-923646c35a80.png">
+
+
+## 7. 게시판 페이징 처리
+
+게시글 목록은 기존에 작성한 바에 따르면 아래와 같다.
+
+<img width="1440" alt="스크린샷 2022-04-27 16 59 56" src="https://user-images.githubusercontent.com/78843098/165470841-c01d6fa7-4b27-482d-a9e9-9d7b05a9a728.png">
+
+다만, 대부분의 게시판의 경우 가장 나중에 쓴 게시글이 맨 위에 올라와있다. 또한 모든 게시글 목록을 보여주는 것이 아닌 10개 혹은 20개씩 출력해준다.
+이를 구현시켜주는 Pageable 객체와 어노테이션을 사용한다.
+
+<img width="1440" alt="스크린샷 2022-04-27 17 01 20" src="https://user-images.githubusercontent.com/78843098/165470753-ff5eb99d-1598-483b-800f-4ce86d83c230.png">
+
+기존에 Service 에서 return type이 List 였는데, 이를 Page로 바꿔준다. 또한 파라미터로 Pageable pageable 을 넘겨준다. >> JPA 기능
+
+<img width="1440" alt="스크린샷 2022-04-27 17 01 41" src="https://user-images.githubusercontent.com/78843098/165470815-d8a7e7d5-9b29-4a82-a4f3-b9557962e5da.png">
+
+결과 확인
+
+<img width="1440" alt="스크린샷 2022-04-27 17 00 08" src="https://user-images.githubusercontent.com/78843098/165470847-6bfc1635-309f-46e9-964f-ad459e49b152.png">
+
+추가적으로 url 에 파라미터를 추가하는 방법으로 설정을 해줄수도 있다.
+
+<img width="1440" alt="스크린샷 2022-04-27 17 05 48" src="https://user-images.githubusercontent.com/78843098/165471532-b981168b-48b7-4755-a156-bfd68ea3734f.png">
+
+<img width="1440" alt="스크린샷 2022-04-27 17 05 56" src="https://user-images.githubusercontent.com/78843098/165471508-f6043cf1-7e7d-4c08-b370-97ec5d385378.png">
+
