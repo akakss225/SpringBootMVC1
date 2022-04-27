@@ -51,4 +51,27 @@ public class BoardController {
         return "redirect:/board/list";
     }
 
+    // 게시글 수정
+    // 게시글 상세 페이지에서 수정 버튼 누르면 동작하는 API
+    @GetMapping("/board/modify/{id}")
+    public String boardModify(@PathVariable("id") int id, Model model) {
+        model.addAttribute("board", boardService.view(id));
+        return "boardmodify";
+    }
+
+    // 실제 수정이 일어나는 API
+    @PostMapping("/board/update/{id}")
+    public String boardUpdate(@PathVariable("id") int id, Board board){
+
+        Board boardTemp = boardService.view(id);
+
+        boardTemp.setTitle(board.getTitle());
+        boardTemp.setContent(board.getContent());
+
+        boardService.write(boardTemp);
+
+        return "redirect:/board/list";
+    }
+
+
 }

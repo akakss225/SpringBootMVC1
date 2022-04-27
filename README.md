@@ -163,3 +163,36 @@ BoardController 에 API 작성
 <img width="1440" alt="스크린샷 2022-04-27 15 28 53" src="https://user-images.githubusercontent.com/78843098/165455163-12f54179-03dc-4567-b475-0739fc456989.png">
 
 <img width="1440" alt="스크린샷 2022-04-27 15 29 43" src="https://user-images.githubusercontent.com/78843098/165455284-950cb4ae-e9c5-48cf-b628-343ea1e3fa80.png">
+
+
+## 7. 게시물 삭제
+
+게시물 삭제의 경우, 별도의 비즈니스로직(Service) 가 필요없다.
+기존에 작성되어있던 게시물 작성을 적극 활용한다.
+
+우선 게시물 상세 페이지에 수정 버튼을 추가해준다. 이번엔 @PathVariable 을 사용해서 작성한다.
+
+<img width="1440" alt="스크린샷 2022-04-27 15 49 49" src="https://user-images.githubusercontent.com/78843098/165458400-14cd306a-c2b8-4cce-979c-4240538deb61.png">
+
+이후 boardmodify 라는 페이지를 만들어준다. 동일하게 게시물 작성 페이지를 활용한다.
+
+<img width="1440" alt="스크린샷 2022-04-27 15 49 04" src="https://user-images.githubusercontent.com/78843098/165458294-7fa59cdc-38f4-4f7f-b268-e217dc773e7d.png">
+
+마지막으로 Controller 에 API를 만들어준다.
+
+<img width="1440" alt="스크린샷 2022-04-27 15 52 18" src="https://user-images.githubusercontent.com/78843098/165458788-3dc210cf-667d-4a21-baa7-b569d1bca3d6.png">
+
+결과 확인
+
+<img width="1440" alt="스크린샷 2022-04-27 15 53 08" src="https://user-images.githubusercontent.com/78843098/165458888-f493ee37-874d-49c1-b0e7-089b2c0f1388.png">
+
+<img width="1440" alt="스크린샷 2022-04-27 15 53 17" src="https://user-images.githubusercontent.com/78843098/165458908-33c2382b-f565-4254-9bac-d26c27d1b5bb.png">
+
+<img width="1440" alt="스크린샷 2022-04-27 15 53 26" src="https://user-images.githubusercontent.com/78843098/165458937-e9a535b3-33da-4939-9df7-18a9cd37ef50.png">
+
+<img width="1440" alt="스크린샷 2022-04-27 15 53 49" src="https://user-images.githubusercontent.com/78843098/165459002-58120122-8e15-42a1-a42f-7203406d5bb2.png">
+
+<img width="1440" alt="스크린샷 2022-04-27 15 54 07" src="https://user-images.githubusercontent.com/78843098/165459042-a77ad1d7-f264-44cb-9d12-0f65aedbd133.png">
+
+
+
