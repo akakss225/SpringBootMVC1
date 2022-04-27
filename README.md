@@ -140,3 +140,26 @@ Thymeleaf 문법을 사용한다.
 <img width="1440" alt="스크린샷 2022-04-23 16 21 54" src="https://user-images.githubusercontent.com/78843098/164884699-74abf2e1-6719-496c-9ebe-9fcf5bc15d35.png">
 
 <img width="1440" alt="스크린샷 2022-04-23 16 21 57" src="https://user-images.githubusercontent.com/78843098/164884701-29472cd1-1d62-47e2-9ddc-8d99104ada64.png">
+
+
+## 6. 게시물 삭제
+
+BoardService 에 비즈니스 로직 작성
+
+<img width="1440" alt="스크린샷 2022-04-27 15 20 35" src="https://user-images.githubusercontent.com/78843098/165454004-010c066f-adb4-45ac-9714-d930a8f51072.png">
+
+BoardController 에 API 작성
+
+<img width="1440" alt="스크린샷 2022-04-27 15 27 37" src="https://user-images.githubusercontent.com/78843098/165454983-983a940f-12d5-4562-bf01-84107845dadc.png">
+
+마지막으로 게시물 상세페이지에 삭제 버튼을 만들어주고, rink를 걸어준다.
+
+<img width="1440" alt="스크린샷 2022-04-27 15 23 37" src="https://user-images.githubusercontent.com/78843098/165454419-0d3e312e-408f-40b7-b313-a0e51b7a782d.png">
+
+결과 확인 >> 맨 위 게시글 지우기
+
+<img width="1440" alt="스크린샷 2022-04-27 15 28 23" src="https://user-images.githubusercontent.com/78843098/165455094-0e653916-5427-48cb-ba49-16f17ca9e8e4.png">
+
+<img width="1440" alt="스크린샷 2022-04-27 15 28 53" src="https://user-images.githubusercontent.com/78843098/165455163-12f54179-03dc-4567-b475-0739fc456989.png">
+
+<img width="1440" alt="스크린샷 2022-04-27 15 29 43" src="https://user-images.githubusercontent.com/78843098/165455284-950cb4ae-e9c5-48cf-b628-343ea1e3fa80.png">

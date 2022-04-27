@@ -5,9 +5,7 @@ import com.study.board.service.BoardService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 @AllArgsConstructor
@@ -46,5 +44,11 @@ public class BoardController {
         return "boardview";
     }
 
+    // 게시글 삭제
+    @GetMapping("/board/delete")
+    public String boardDelete(int id) {
+        boardService.boardDelete(id);
+        return "redirect:/board/list";
+    }
 
 }
