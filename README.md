@@ -7,7 +7,7 @@
 - [게시물 상세페이지](https://github.com/akakss225/SpringBootMVC1#5-%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80)
 - [게시물 삭제](https://github.com/akakss225/SpringBootMVC1#6-%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EC%82%AD%EC%A0%9C)
 - [게시물 수정](https://github.com/akakss225/SpringBootMVC1#7-%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EC%82%AD%EC%A0%9C)
-- 게시물 리스트 페이징
+- [게시물 리스트 페이징](https://github.com/akakss225/SpringBootMVC1#7-%EA%B2%8C%EC%8B%9C%ED%8C%90-%ED%8E%98%EC%9D%B4%EC%A7%95-%EC%B2%98%EB%A6%AC)
 
 <hr>
 
@@ -240,4 +240,21 @@ BoardController 에 API 작성
 <img width="1440" alt="스크린샷 2022-04-27 17 05 48" src="https://user-images.githubusercontent.com/78843098/165471532-b981168b-48b7-4755-a156-bfd68ea3734f.png">
 
 <img width="1440" alt="스크린샷 2022-04-27 17 05 56" src="https://user-images.githubusercontent.com/78843098/165471508-f6043cf1-7e7d-4c08-b370-97ec5d385378.png">
+
+### 페이징 처리 2
+
+이후, 나머지 list 목록에 접근할 수 있는 페이지네이션이 필요하다. 따라서 Controller 에 현재 페이지, 첫 페이지, 마지막 페이지 값을 구해준다.
+그리고 이 구한 페이지 값들을 boardlist 로 넘겨준다.
+
+<img width="1440" alt="스크린샷 2022-04-27 17 22 54" src="https://user-images.githubusercontent.com/78843098/165474750-eb32c332-4d97-4078-b00f-ef3fb9407ca6.png">
+
+boardlist 페이지에서 간단하게 페이지를 이동시키는 네비게이션을 Thymeleaf 문법을 활용해 만들어준다.
+
+<img width="1440" alt="스크린샷 2022-04-27 17 23 17" src="https://user-images.githubusercontent.com/78843098/165474822-19dae4be-281b-4ca0-bc07-ad6daa5a935f.png">
+
+결과 확인
+
+<img width="1440" alt="스크린샷 2022-04-27 17 23 31" src="https://user-images.githubusercontent.com/78843098/165474884-5d4f2eab-fb62-443f-b156-964b5be45af5.png">
+
+<img width="1440" alt="스크린샷 2022-04-27 17 23 39" src="https://user-images.githubusercontent.com/78843098/165474916-e607bdf6-7d42-4eb8-ba54-43199b703ac4.png">
 
