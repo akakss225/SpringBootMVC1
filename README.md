@@ -8,6 +8,7 @@
 - [게시물 삭제](https://github.com/akakss225/SpringBootMVC1#6-%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EC%82%AD%EC%A0%9C)
 - [게시물 수정](https://github.com/akakss225/SpringBootMVC1#7-%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EC%82%AD%EC%A0%9C)
 - [게시물 리스트 페이징](https://github.com/akakss225/SpringBootMVC1#7-%EA%B2%8C%EC%8B%9C%ED%8C%90-%ED%8E%98%EC%9D%B4%EC%A7%95-%EC%B2%98%EB%A6%AC)
+- [마무리 리뷰]()
 
 <hr>
 
@@ -258,3 +259,8 @@ boardlist 페이지에서 간단하게 페이지를 이동시키는 네비게이
 
 <img width="1440" alt="스크린샷 2022-04-27 17 23 39" src="https://user-images.githubusercontent.com/78843098/165474916-e607bdf6-7d42-4eb8-ba54-43199b703ac4.png">
 
+## 끝으로...
+
+현재까지 SpringBoot + JPA + MySQL 을 활용한 간단한 CRUD 구현을 했습니다.
+
+이후 과정으로는 현재 이 프로젝트 기반 Refactoring 을 진행하며, 실제 게시판과 흡사한 페이지를 만들 것입니다.
