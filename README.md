@@ -8,7 +8,7 @@
 - [게시물 삭제](https://github.com/akakss225/SpringBootMVC1#6-%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EC%82%AD%EC%A0%9C)
 - [게시물 수정](https://github.com/akakss225/SpringBootMVC1#7-%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EC%82%AD%EC%A0%9C)
 - [게시물 리스트 페이징](https://github.com/akakss225/SpringBootMVC1#7-%EA%B2%8C%EC%8B%9C%ED%8C%90-%ED%8E%98%EC%9D%B4%EC%A7%95-%EC%B2%98%EB%A6%AC)
-- [마무리 리뷰]()
+- [마무리 리뷰](https://github.com/akakss225/SpringBootMVC1#%EB%81%9D%EC%9C%BC%EB%A1%9C)
 
 <hr>
 
