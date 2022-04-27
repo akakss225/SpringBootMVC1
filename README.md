@@ -195,4 +195,22 @@ BoardController 에 API 작성
 <img width="1440" alt="스크린샷 2022-04-27 15 54 07" src="https://user-images.githubusercontent.com/78843098/165459042-a77ad1d7-f264-44cb-9d12-0f65aedbd133.png">
 
 
+## ++ 메세지 호출
 
+종종 게시글 등록 / 수정 / 삭제 시 완료 메세지를 호출한다.
+
+이를 위한 message 페이지를 만듬.
+
+<img width="1440" alt="스크린샷 2022-04-27 16 13 46" src="https://user-images.githubusercontent.com/78843098/165462302-e9c11061-3138-4e13-9f99-b87a8f803e2f.png">
+
+이후, redirect로 바로 list 페이지를 호출했던 writeDo API를 message 페이지로 이동시켜주고, 이동 이후 다시 list 페이지로 이동하게 model 을 통해 값을 넘겨준다.
+
+<img width="1440" alt="스크린샷 2022-04-27 16 13 33" src="https://user-images.githubusercontent.com/78843098/165462267-8ec5c759-3674-45b7-8daa-572a67094781.png">
+
+결과 확인
+
+<img width="1440" alt="스크린샷 2022-04-27 16 18 12" src="https://user-images.githubusercontent.com/78843098/165463076-a8018bea-b4bc-4b41-87ca-e3c3a0af9155.png">
+
+<img width="1440" alt="스크린샷 2022-04-27 16 18 31" src="https://user-images.githubusercontent.com/78843098/165463107-2f2b1df8-512d-4aba-9c5e-880f3be34b04.png">
+
+<img width="1440" alt="스크린샷 2022-04-27 16 18 41" src="https://user-images.githubusercontent.com/78843098/165463136-f28f041c-b0d8-4568-89eb-923646c35a80.png">

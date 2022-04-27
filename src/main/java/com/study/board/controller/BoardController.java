@@ -24,12 +24,14 @@ public class BoardController {
     }
 
     @PostMapping("/board/writedo")
-    public String boardWriteDo(Board board) {
-        System.out.println("id = " + board.getId());
-        System.out.println("title = " + board.getTitle());
-        System.out.println("content = " + board.getContent());
+    public String boardWriteDo(Board board, Model model) {
+//        System.out.println("id = " + board.getId());
+//        System.out.println("title = " + board.getTitle());
+//        System.out.println("content = " + board.getContent());
         boardService.write(board);
-        return "";
+        model.addAttribute("message", "Success a Write");
+        model.addAttribute("searchUrl", "/board/list");
+        return "message";
     }
 
     @GetMapping("/board/list")

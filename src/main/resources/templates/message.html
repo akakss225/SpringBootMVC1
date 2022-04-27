@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script th:inline="javascript">
+        /*<![CDATA[*/
+          // EL
+          var message = [[${message}]];
+          alert(message);
+
+          // 페이지 이동
+          location.replace([[${searchUrl}]]);
+        /*]]>*/
+    </script>
+</head>
+<body>
+</body>
+</html>
